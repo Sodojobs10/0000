@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.3em;
+    border: 2px solid lightgray;   
+}
+
+nav a{
+    color: lightslategray;
+    margin-left: 20px;
+}
+
+nav a, li a{   
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#c84d48;
+}
+
+#teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#allplayers-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.player-section {
+    max-width: 615px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.player-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#players-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#player-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+#statistics-container {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#all-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+
+.player {
+    display: flex;
+}
+
+.average {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.average > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+}
+
+#charts-container{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+.events-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.card, .game-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.card > p, .game-card > div > p {
+    margin: 0;
+}
+
+.card img {
+    width: 50x;
+    height: 50px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
